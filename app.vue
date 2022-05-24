@@ -1,32 +1,13 @@
 <template>
   <div>
-    <h1>Admin space</h1>
-    <span>{{ API_CONTENT_PATH }}</span>
+    <h1>@nuxtjs/tailwindcss v 5.1.2 brakes in nuxt v "3.0.0-rc.1"</h1>
   </div>
 </template>
 
 <script>
 export default {
   setup() {
-    const API_CONTENT_PATH = ref('');
-    const ctx = useNuxtApp();
-    onMounted(init);
-
-    // app config
-    // ctx.payload.config.app
-
-    function init() {
-      if (!process.client) {
-        return;
-      }
-
-      console.log(ctx);
-      API_CONTENT_PATH.value = ctx.payload.config.app.API_CONTENT_PATH;
-    }
-
-    return{
-      API_CONTENT_PATH
-    }
+    
   },
 };
 </script>
