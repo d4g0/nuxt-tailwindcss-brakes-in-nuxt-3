@@ -22,3 +22,6 @@ you should get this error trace
   at async Object.invoke (node_modules/nuxi/dist/chunks/dev.mjs:6777:5)
   at async _main (node_modules/nuxi/dist/cli.mjs:46:20)
 ```
+
+I also tested on `nuxt 3.0.0-rc.3`
+Look in this [branch](https://github.com/d4g0/nuxt-tailwindcss-brakes-in-nuxt-3/tree/rc.3)
