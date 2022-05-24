@@ -25,3 +25,6 @@ you should get this error trace
 
 I also tested on `nuxt 3.0.0-rc.3`
 Look in this [branch](https://github.com/d4g0/nuxt-tailwindcss-brakes-in-nuxt-3/tree/rc.3)
+
+Also test by directly installing postcss (back to first error trace)
+Look in this [branch](https://github.com/d4g0/nuxt-tailwindcss-brakes-in-nuxt-3/tree/postcss)
